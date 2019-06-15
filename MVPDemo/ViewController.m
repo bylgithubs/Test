@@ -25,7 +25,7 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	[self.tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-//111
+//111222
 	self.presenter = [Presenter new];
 	[self.presenter attachView:self];
 	[self.presenter fetchData];
